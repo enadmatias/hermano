@@ -12,13 +12,9 @@
     <script type="text/javascript" src="./scrollmagic/uncompressed/ScrollMagic.js"></script>
     <script type="text/javascript" src="./scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
     <script type="text/javascript" src="./scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
-
-
+     <title>Hermano</title>
   <style>
-      @font-face {
-        font-family: KozGoPro;
-        src:url("KozGoPro.otf") format("opentype");
-      }
+  
       html{
         background-color: lightgray;
       }
@@ -792,7 +788,7 @@ var tween = new TimelineMax()
               .add(TweenMax.to($word, 0.9, {strokeDashoffset: 0, ease:Linear.easeNone})) // draw word for 0.9
               var scene = new ScrollMagic.Scene({triggerElement: "#trigger5",triggerHook: .39, duration: 250, tweenChanges: true, reverse: false})
 										.setTween(tween)
-										.addIndicators() // add indicators (requires plugin)
+										// .addIndicators() // add indicators (requires plugin)
                     .addTo(controller);        
  
 // $(function () { // wait for document ready
@@ -811,7 +807,7 @@ new ScrollMagic.Scene({
                                                     reverse: false
                                                 })
                                                 .setClassToggle("#reveal1", "visible") // add class to reveal
-                                                .addIndicators() // add indicators (requires plugin)
+                                                // .addIndicators() // add indicators (requires plugin)
                                                 .addTo(controller);
 
  new ScrollMagic.Scene({
@@ -822,7 +818,7 @@ new ScrollMagic.Scene({
                                                     reverse: false
                                                 })
                                                 .setClassToggle("#reveal2", "visible") // add class to reveal
-                                                .addIndicators() // add indicators (requires plugin)
+                                                // .addIndicators() // add indicators (requires plugin)
                                                 .addTo(controller);      
 new ScrollMagic.Scene({
                                                     triggerElement: "#trigger3",
@@ -832,7 +828,7 @@ new ScrollMagic.Scene({
                                                     reverse: false
                                                 })
                                                 .setClassToggle("#reveal3", "visible") // add class to reveal
-                                                .addIndicators() // add indicators (requires plugin)
+                                                // .addIndicators() // add indicators (requires plugin)
                                                 .addTo(controller);   
  new ScrollMagic.Scene({
                                                     triggerElement: "#trigger4",
@@ -842,7 +838,7 @@ new ScrollMagic.Scene({
                                                     reverse: false
                                                 })
                                                 .setClassToggle("#reveal4", "visible") // add class to reveal
-                                                .addIndicators() // add indicators (requires plugin)
+                                                // .addIndicators() // add indicators (requires plugin)
                                                 .addTo(controller);   
  new ScrollMagic.Scene({
                                                     triggerElement: "#trigger6",
@@ -852,7 +848,7 @@ new ScrollMagic.Scene({
                                                     reverse: false
                                                 })
                                                 .setClassToggle("#reveal6", "visible") // add class to reveal
-                                                .addIndicators() // add indicators (requires plugin)
+                                                // .addIndicators() // add indicators (requires plugin)
                                                 .addTo(controller);   
  new ScrollMagic.Scene({
                                                     triggerElement: ".progressbar",
@@ -862,7 +858,7 @@ new ScrollMagic.Scene({
                                           
                                                 })
                                                 .setClassToggle(".progressbar", "show") // add class to reveal
-                                                .addIndicators() // add indicators (requires plugin)
+                                                // .addIndicators() // add indicators (requires plugin)
                                                 .addTo(controller);     
 
                                                                                               
